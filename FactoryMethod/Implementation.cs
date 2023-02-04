@@ -60,6 +60,9 @@
         }
     }
 
+    /// <summary>
+    /// Concrete Product
+    /// </summary>
     public class CityDiscountServices : DiscountService
     {
         private readonly string _cityName;
